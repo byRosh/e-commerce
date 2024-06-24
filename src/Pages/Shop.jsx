@@ -13,8 +13,7 @@ export const Shop = () => {
       <Popular/>  
       <Offers/> 
       <NewCollections/>
-      <NewsLetter/>
-      <Footer/>
+      <NewsLetter/>   
     </div>
   )
 }
