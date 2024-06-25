@@ -6,8 +6,8 @@ import { Item } from "../Components/Items/Item";
 import "../Components/Items/Item.css"
 
 export const ShopCategory = (props) => {
+  console.log(props)
   const { all_product } = useContext(ShopContext);
-
   return (
     <div className="shop-category">
       <img className="shopcategory-banner" src={props.banner} alt="" />
